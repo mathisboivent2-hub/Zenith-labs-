@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zenith Labs - Gaming Gear</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0a14; color: #e8e8f0; font-family: Arial, sans-serif; line-height: 1.6; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px 6%; border-bottom: 1px solid #1f1f3a; position: sticky; top: 0; background: #0a0a14ee; }
+.logo { font-size: 1.6rem; font-weight: bold; color: #00f0ff; letter-spacing: 2px; text-shadow: 0 0 12px #00f0ff88; }
+nav a { color: #e8e8f0; text-decoration: none; margin-left: 24px; }
+nav a:hover { color: #ff2bd6; }
+.hero { text-align: center; padding: 120px 6%; background: radial-gradient(circle at center, #1a1040 0%, #0a0a14 70%); }
+.hero h1 { font-size: 3rem; color: #fff; text-shadow: 0 0 20px #ff2bd6aa; }
+.hero p { margin: 20px auto 30px; max-width: 560px; color: #aab; }
+.btn { display: inline-block; padding: 14px 32px; background: #00f0ff; color: #0a0a14; font-weight: bold; border-radius: 8px; text-decoration: none; box-shadow: 0 0 18px #00f0ff88; }
+.btn:hover { background: #ff2bd6; box-shadow: 0 0 18px #ff2bd688; }
+section { padding: 70px 6%; }
+section h2 { text-align: center; font-size: 2rem; margin-bottom: 40px; color: #00f0ff; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+.card { background: #12122a; border: 1px solid #25254a; border-radius: 12px; padding: 20px; text-align: center; }
+.card:hover { border-color: #ff2bd6; box-shadow: 0 0 16px #ff2bd655; }
+.card .img { height: 160px; background: #1c1c3a; border-radius: 8px; margin-bottom: 14px; display: flex; align-items: center; justify-content: center; color: #556; }
+.card h3 { margin-bottom: 6px; }
+.price { color: #00f0ff; font-weight: bold; margin-bottom: 12px; }
+.about { text-align: center; max-width: 700px; margin: 0 auto; color: #aab; }
+footer { text-align: center; padding: 30px; border-top: 1px solid #1f1f3a; color: #667; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">ZENITH LABS</div>
+  <nav>
+    <a href="#boutique">Boutique</a>
+    <a href="#apropos">A propos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Passe au niveau supérieur</h1>
+  <p>Accessoires et merch gaming à prix abordables, créés par un joueur pour les joueurs.</p>
+  <a class="btn" href="#boutique">Voir la boutique</a>
+</div>
+
+<section id="boutique">
+  <h2>La boutique</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="img">Photo à ajouter</div>
+      <h3>Tapis de souris XXL néon</h3>
+      <div class="price">19,90 €</div>
+      <a class="btn" href="#">Acheter</a>
+    </div>
+    <div class="card">
+      <div class="img">Photo à ajouter</div>
+      <h3>Bandeau LED gaming</h3>
+      <div class="price">14,90 €</div>
+      <a class="btn" href="#">Acheter</a>
+    </div>
+    <div class="card">
+      <div class="img">Photo à ajouter</div>
+      <h3>Support casque RGB</h3>
+      <div class="price">24,90 €</div>
+      <a class="btn" href="#">Acheter</a>
+    </div>
+    <div class="card">
+      <div class="img">Photo à ajouter</div>
+      <h3>Hoodie Zenith Labs</h3>
+      <div class="price">39,90 €</div>
+      <a class="btn" href="#">Acheter</a>
+    </div>
+  </div>
+</section>
+
+<section id="apropos">
+  <h2>A propos</h2>
+  <p class="about">Zenith Labs est un studio gaming indépendant. Notre mission : proposer du matériel et du merch de qualité à des prix accessibles, pour que chaque joueur puisse s'équiper, même quand le budget est serré.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="about">Une question ? Écris-nous : contact@zenithlabs.example</p>
+</section>
+
+<footer>© 2026 Zenith Labs. Tous droits réservés.</footer>
+
+</body>
+</html>
